@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- No responsibility is accepted for any content presented on this site. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Roma2026 - Minecraft Edition</title>
+
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to bottom, #79c45a 0%, #79c45a 50%, #87CEEB 50%, #87CEEB 100%);
+      font-family: 'Press Start 2P', cursive;
+      color: #fff;
+      overflow: hidden;
+      text-shadow: 2px 2px #000;
+    }
+
+    .game-screen-container {
+      background-color: rgba(0, 0, 0, 0.65);
+      border: 6px solid #3d2b1f;
+      padding: 35px 45px;
+      box-shadow: 8px 8px 0px rgba(0,0,0,0.7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+
+    .navbar-container {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .navbar-container a {
+      background-color: #5a3d2b;
+      padding: 10px 15px;
+      border: 3px solid #3b261a;
+      box-shadow: 4px 4px 0px rgba(0,0,0,0.4);
+      color: white;
+      text-decoration: none;
+      transition: 0.1s;
+    }
+
+    .navbar-container a:hover {
+      transform: translate(-3px, -3px);
+      background: #74503a;
+      box-shadow: 6px 6px 0 rgba(0,0,0,0.7);
+    }
+
+    .client-button {
+      font-size: 20px;
+      padding: 15px 30px;
+      width: 100%;
+      text-align: center;
+      background-color: #5865F2;
+      border: 4px solid #383fb3;
+      box-shadow: 5px 5px 0px rgba(0,0,0,0.6);
+      color: #fff;
+      text-decoration: none;
+      transition: 0.1s;
+    }
+
+    .client-button:hover {
+      background-color: #6a74f4;
+      transform: translate(-3px, -3px);
+      box-shadow: 7px 7px 0px rgba(0,0,0,0.8);
+    }
+
+    footer {
+      position: fixed;
+      bottom: 10px;
+      text-align: center;
+      width: 100%;
+      font-size: 12px;
+      opacity: 0.85;
+      text-shadow: 1px 1px #000;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="game-screen-container">
+
+    <div class="navbar-container">
+      <a href="index_en.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="policies.html">Policies</a>
+
+      <a href="https://discord.gg/bnRUCkxswp" target="_blank" class="social-icon"><i class="fab fa-discord"></i></a>
+      <a href="https://youtube.com/@channelname" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+      <a href="https://t.me/username" target="_blank" class="social-icon"><i class="fab fa-telegram"></i></a>
+    </div>
+
+    <a href="boze.html" class="client-button">BOZE CLIENT</a>
+
+  </div>
+
+  <footer>
+    No responsibility is accepted for any content presented on this site.
+  </footer>
+
+</body>
+</html>
